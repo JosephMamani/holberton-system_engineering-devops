@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times whith a while statement
+# This script is displaying "Best School" 10 times
 i=0
-while [ $i -lt 10 ]; do
-		echo "Holberton School"
-		((i++))
-done
+while [ $i -lt 10 ]; do echo "Best School"; ((i++)); done

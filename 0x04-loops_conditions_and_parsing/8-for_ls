@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# shows file names in the current directory since the first '-'
+for i in *; do
+echo "$i" | cut -d "-" -f2-
+done
